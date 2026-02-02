@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inventário de produtos</h1>
+    <table border="1" cellpadding ="10">
+        <thread>
+            <tr>
+                <th>Classificação</th>
+                <th>Time</th>
+                <th>Jogos</th>
+                <th>Pontos</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td><img src="palmeras.jpg" width="160"></td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><img src="chapeco.svg" width="120"></td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            
+            <tr>
+                <td>03</td>
+                <td><img src="avai.png" width="120"></td>
+                <td>1</td>
+                <td>3</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>04</td>
+                <td><img src="lec.png" width="120"></td>
+                <td>1</td>
+                <td>3</td>
+                
+            </tr>
+            <tr>
+                <td>05</td>
+                <td><img src="marilia.png" width="120"></td>
+                <td>1</td>
+                <td>3</td>
+                
+            </tr>
+            <tr>
+                <td>06</td>
+                <td><img src="bandeirante.png" width="120"></td>
+                <td>1</td>
+                <td>3</td>
+                
+                
+            </tr>
+            
+            
+            
+            <tr>
+                <td>07</td>
+                <td><img src="PaysanduSC.png" width="120"></td>
+                <td>1</td>
+                <td>1</td>
+                
+            </tr>
+            
+            
+            
+            <tr>
+                
+                
+                <td>08</td>
+                <td><img src="fortaleza-capa-822x537.png" width="140"></td>
+                <td>1</td>
+                <td>1</td>
+                
+                
+            </tr>
+            
+            <tr>
+                
+                
+                <td>09</td>
+                <td><img src="curtinas.png" width="40"></td>
+                <td>1</td>
+                <td>1</td>
+                
+                
+            </tr>
+
+            <tr>
+
+            <td>09</td>
+            <td><img src="aitec.jpg" width="120"></td>
+            <td>1</td>
+            <td>1</td>
+
+            </tr>
+
+            <h1>Responda</h1>
+
+    <form method="POST" action="processar.php">
+        <fieldset>
+
+            <legend>Dados do seu time</legend>
+
+            <label for="nome">Qual seu time:</label>
+            <input type="email" id="nome" name="nome" required>
+
+            <br><br>
+
+            <label for="email">Seu time tem mundial:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="idade">Quantos times brasileiro seu time possui:</label>
+            <input type="number" id="idade" name="idade" min="18" max="120">
+
+            <br><br>
+
+            <label for="senha">Deixe seu comentário:</label>
+            <input type="text" id="text" name="text" required>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Aceito os temos de serviço
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <button>Enviar</button>
+
+        <fieldset>
+            <legend>Estou feliz</legend>
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Sou Feliz
+            </label>
+
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Não sou feliz
+            </label>
+
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Sou muito alegre
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pagamento</legend>
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Cartão de Crédito
+            </label>
+
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Cartão de Debito
+            </label>
+
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Pix
+            </label>
+
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Vale Bombom
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        
+        </tbody>
+    </table>
+</body>
